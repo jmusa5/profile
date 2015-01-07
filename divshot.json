@@ -1,0 +1,6 @@
+{
+  "name": "jmusa5-profile",
+  "root": "./",
+  "clean_urls": true,
+  "error_page": "error.html"
+}

@@ -1,0 +1,23 @@
+body {
+  max-width: 780;
+  background-image: url("img/BG1.jpg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  color: blue;
+  font-size: 40px;
+  font-family: serif;
+  background-color: #a2b41d;
+
+  position: relative;
+  text-align: center;
+}
+
+.nav {
+  display: inline;
+  font-family: times, serif;
+  font:size: 30px;
+
+}
