@@ -1,5 +1,5 @@
 body {
-  max-width: 780;
+  max-width: 780px;
   background-image: url("img/BG1.jpg");
   background-repeat:no-repeat;
   background-attachment: fixed;
@@ -8,16 +8,39 @@ body {
 header {
   color: blue;
   font-size: 40px;
-  font-family: serif;
-  background-color: #a2b41d;
-
+  font-family: times,serif;
   position: relative;
   text-align: center;
 }
 
 .nav {
-  display: inline;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
   font-family: times, serif;
   font:size: 30px;
 
+}
+
+h1 {
+  text-align: center;
+  font-family: times, serif;
+}
+
+.left, ul {
+  text-align: left;
+  font-family: times, serif;
+
+}
+
+h3, p {
+  text-align: center;
+
+}
+
+footer {
+  text-align: center;
+  background: url("img/Blu-BKGD.jpg")
+  
 }
