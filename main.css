@@ -34,14 +34,16 @@ h1 {
   font-family: times, serif;
 }
 
-blockquote, cite, p  {
+blockquote, cite  {
   margin: 20px 40px 20px 40px;
+  font-size: 15px;
   text-align: left;
   position: relative;
 }
 
-blockquote, cite {
-  font-size: 15px;
+.statement {
+  margin: 40px 40px;
+  text-align: left;
 }
 
 .ME {
@@ -68,10 +70,10 @@ h3, p {
 footer {
   color: #40ead3;
   margin: 0 auto;
-  height: 25px;
+  height: 30px;
   font-size: 20px;
   text-align: center;
-  background: url("img/Blu-BKGD.jpg");
+  background: url("img/Blu-BKGD");
 
 }
 
