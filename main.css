@@ -1,12 +1,15 @@
 body {
+  color: #40ead3;
+  margin: 0 auto;
   max-width: 780px;
-  background-image: url("img/BG1.jpg");
+  background-image: url("img/scuff.jpg");
   background-repeat:no-repeat;
   background-attachment: fixed;
 }
 
 header {
-  color: blue;
+  margin: 40px 20px 20px 20px;
+  color: #40ead3;
   font-size: 40px;
   font-family: times,serif;
   position: relative;
@@ -14,9 +17,11 @@ header {
 }
 
 .nav {
+  margin: 20px 20px 20px 30px;
   display: inline-block;
   position: relative;
   text-align: center;
+  color: #40ead3;
   font-size: 20px;
   font-family: times, serif;
   font:size: 30px;
@@ -24,11 +29,32 @@ header {
 }
 
 h1 {
+  color: #40ead3;
   text-align: center;
   font-family: times, serif;
 }
 
+blockquote, cite, p  {
+  margin: 20px 40px 20px 40px;
+  text-align: left;
+  position: relative;
+}
+
+blockquote, cite {
+  font-size: 15px;
+}
+
+.ME {
+  margin: 20px 40px 20px 40px;
+  text-align: left;
+}
+
+p {
+  font-size: 20px;
+}
+
 .left, ul {
+  color: #40ead3;
   text-align: left;
   font-family: times, serif;
 
@@ -40,7 +66,21 @@ h3, p {
 }
 
 footer {
+  color: #40ead3;
+  margin: 0 auto;
+  height: 25px;
+  font-size: 20px;
   text-align: center;
-  background: url("img/Blu-BKGD.jpg")
-  
+  background: url("img/Blu-BKGD.jpg");
+
+}
+
+a:link {
+  color: #40ead3;
+  text-decoration: underline;
+
+}
+
+a:hover {
+  color: red;
 }
