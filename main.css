@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   max-width: 780px;
   background-image: url("img/scuff.jpg");
+  background-size: cover;
   background-repeat:no-repeat;
   background-attachment: fixed;
 }
