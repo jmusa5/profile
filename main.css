@@ -28,6 +28,10 @@ header {
 
 }
 
+#self1 {
+  border: 3px solid #40ead3;
+}
+
 h1 {
   color: #40ead3;
   text-align: center;
@@ -35,7 +39,7 @@ h1 {
 }
 
 blockquote, cite  {
-  margin: 20px 40px 20px 40px;
+  margin: 30px 40px 30px 40px;
   font-size: 15px;
   text-align: left;
   position: relative;
@@ -46,7 +50,7 @@ blockquote, cite  {
   text-align: left;
 }
 
-.ME {
+.me {
   margin: 20px 40px 20px 40px;
   text-align: left;
 }
@@ -69,11 +73,11 @@ h3, p {
 
 footer {
   color: #40ead3;
-  margin: 0 auto;
+  margin: 30px auto;
+  /* margin: 0 auto; */
   height: 30px;
   font-size: 20px;
   text-align: center;
-  background: url("img/Blu-BKGD");
 
 }
 
