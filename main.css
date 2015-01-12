@@ -25,11 +25,10 @@ header {
   color: #40ead3;
   font-size: 20px;
   font-family: times, serif;
-  font:size: 30px;
 
 }
 
-#self1 {
+.self1 {
   border: 3px solid #40ead3;
 }
 
